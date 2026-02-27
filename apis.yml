@@ -1,0 +1,53 @@
+name: Azure Notebooks
+description: Azure Notebooks was a free hosted service to develop and run Jupyter notebooks in the cloud with no installation. It provided an easy way to create and share documents containing live code, equations, visualizations, and narrative text.
+image: https://azure.microsoft.com/svghandler/notebooks/
+tags:
+- Jupyter
+- Notebooks
+- Cloud Computing
+- Data Science
+- Python
+- R
+created: '2024-01-01'
+modified: '2024-01-01'
+url: https://notebooks.azure.com/
+specificationVersion: '0.16'
+apis:
+- name: Azure Notebooks API
+  description: API for managing and executing Jupyter notebooks on Azure
+  image: https://azure.microsoft.com/svghandler/notebooks/
+  humanURL: https://notebooks.azure.com/
+  baseURL: https://notebooks.azure.com/api
+  tags:
+  - Notebooks
+  - Jupyter
+  - Execution
+  properties:
+  - type: Documentation
+    url: https://docs.microsoft.com/azure/notebooks/
+  - type: OpenAPI
+    url: https://notebooks.azure.com/api/swagger.json
+  - type: Authentication
+    url: https://docs.microsoft.com/azure/notebooks/quickstart-sign-in-azure-notebooks
+maintainers:
+- FN: Microsoft Azure
+  email: support@azure.com
+  url: https://azure.microsoft.com/support/
+include:
+- name: Azure Management APIs
+  url: https://management.azure.com/apis.json
+- name: Azure Compute APIs
+  url: https://azure.microsoft.com/compute/apis.json
+common:
+- type: Terms of Service
+  url: https://azure.microsoft.com/support/legal/
+- type: Privacy Policy
+  url: https://privacy.microsoft.com/
+- type: Status
+  url: https://status.azure.com/
+- type: Pricing
+  url: https://azure.microsoft.com/pricing/
+- type: Blog
+  url: https://azure.microsoft.com/blog/
+- type: Support
+  url: https://azure.microsoft.com/support/
