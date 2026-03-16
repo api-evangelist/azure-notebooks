@@ -1,53 +1,34 @@
+aid: azure-notebooks
 name: Azure Notebooks
-description: Azure Notebooks was a free hosted service to develop and run Jupyter notebooks in the cloud with no installation. It provided an easy way to create and share documents containing live code, equations, visualizations, and narrative text.
-image: https://azure.microsoft.com/svghandler/notebooks/
+description: >-
+  Azure Notebooks was a free hosted service to develop and run Jupyter notebooks
+  in the cloud with no installation. The service has been retired; users are
+  recommended to migrate to Azure Machine Learning or Visual Studio Code.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Jupyter
-- Notebooks
-- Cloud Computing
-- Data Science
-- Python
-- R
-created: '2024-01-01'
-modified: '2024-01-01'
-url: https://notebooks.azure.com/
-specificationVersion: '0.16'
-apis:
-- name: Azure Notebooks API
-  description: API for managing and executing Jupyter notebooks on Azure
-  image: https://azure.microsoft.com/svghandler/notebooks/
-  humanURL: https://notebooks.azure.com/
-  baseURL: https://notebooks.azure.com/api
-  tags:
-  - Notebooks
   - Jupyter
-  - Execution
-  properties:
-  - type: Documentation
-    url: https://docs.microsoft.com/azure/notebooks/
-  - type: OpenAPI
-    url: https://notebooks.azure.com/api/swagger.json
-  - type: Authentication
-    url: https://docs.microsoft.com/azure/notebooks/quickstart-sign-in-azure-notebooks
-maintainers:
-- FN: Microsoft Azure
-  email: support@azure.com
-  url: https://azure.microsoft.com/support/
-include:
-- name: Azure Management APIs
-  url: https://management.azure.com/apis.json
-- name: Azure Compute APIs
-  url: https://azure.microsoft.com/compute/apis.json
+  - Notebooks
+  - Cloud Computing
+  - Data Science
+  - Python
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/azure-notebooks/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
 common:
-- type: Terms of Service
-  url: https://azure.microsoft.com/support/legal/
-- type: Privacy Policy
-  url: https://privacy.microsoft.com/
-- type: Status
-  url: https://status.azure.com/
-- type: Pricing
-  url: https://azure.microsoft.com/pricing/
-- type: Blog
-  url: https://azure.microsoft.com/blog/
-- type: Support
-  url: https://azure.microsoft.com/support/
+  - type: Portal
+    url: https://portal.azure.com
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/azure/machine-learning/
+  - type: Terms of Service
+    url: https://azure.microsoft.com/en-us/support/legal/
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Status
+    url: https://status.azure.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
