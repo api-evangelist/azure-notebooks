@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Jupyter
-  - Notebooks
   - Cloud Computing
   - Data Science
+  - Jupyter
+  - Notebooks
   - Python
 url: >-
   https://raw.githubusercontent.com/api-evangelist/azure-notebooks/refs/heads/main/apis.yml
