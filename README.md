@@ -1,46 +1,24 @@
 # Azure Notebooks (azure-notebooks)
-Azure Notebooks was a free hosted service to develop and run Jupyter notebooks in the cloud with no installation. It provided an easy way to create and share documents containing live code, equations, visualizations, and narrative text.
+Azure Notebooks was a free hosted Jupyter notebook service retired on October 9, 2020. Users should migrate to Azure Machine Learning, Visual Studio Code, or GitHub Codespaces.
 
-**URL:** [Visit APIs.json URL](https://notebooks.azure.com/)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/azure-notebooks/refs/heads/main/apis.yml)
+
+**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
 
 ## Tags:
 
- - Jupyter, Notebooks, Cloud Computing, Data Science, Python, R
+ - Azure, Cloud Computing, Data Science, Jupyter, Notebooks, Python, Retired
 
 ## Timestamps
 
-- **Created:** 2024-01-01 
-- **Modified:** 2024-01-01 
-
-## APIs
-
-### Azure Notebooks API
-API for managing and executing Jupyter notebooks on Azure
-
-**Human URL:** [https://notebooks.azure.com/](https://notebooks.azure.com/)
-
-
-#### Tags:
-
- - Notebooks, Jupyter, Execution
-
-#### Properties
-
-- [Documentation](https://docs.microsoft.com/azure/notebooks/)
-- [OpenAPI](https://notebooks.azure.com/api/swagger.json)
-- [Authentication](https://docs.microsoft.com/azure/notebooks/quickstart-sign-in-azure-notebooks)
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-19
 
 ## Common Properties
 
-- [Terms of Service](https://azure.microsoft.com/support/legal/)
-- [Privacy Policy](https://privacy.microsoft.com/)
-- [Status](https://status.azure.com/)
-- [Pricing](https://azure.microsoft.com/pricing/)
-- [Blog](https://azure.microsoft.com/blog/)
-- [Support](https://azure.microsoft.com/support/)
 
 ## Maintainers
 
-**FN:** Microsoft Azure
+**FN:** Kin Lane
 
-**Email:** support@azure.com
+**Email:** kin@apievangelist.com
