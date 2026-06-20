@@ -6,7 +6,7 @@ description: >-
   Users are recommended to migrate to Azure Machine Learning, Visual Studio Code with
   Jupyter extension, or GitHub Codespaces for equivalent functionality.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Azure
 - Cloud Computing
