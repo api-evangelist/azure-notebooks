@@ -50,7 +50,7 @@ common:
     description: Cloud-based development environments with Jupyter notebook support.
   - name: Visual Studio Code
     description: Local IDE with Jupyter notebook extension and Azure compute connectivity.
-- type: LLMsTxt
+- type: LlmsText
   url: https://portal.azure.com/llms.txt
 maintainers:
 - FN: Kin Lane
