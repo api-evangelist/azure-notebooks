@@ -1,5 +1,6 @@
 aid: azure-notebooks
 name: Azure Notebooks
+x-parent: microsoft-azure
 description: >-
   Azure Notebooks was a free hosted service to develop and run Jupyter notebooks
   in the cloud with no installation required. The service was retired on October 9, 2020.
@@ -37,8 +38,7 @@ tags:
 - Notebooks
 - Python
 - Retired
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/azure-notebooks/refs/heads/main/apis.yml
+url: https://learn.microsoft.com/en-us/azure/machine-learning/
 created: '2024-01-01'
 modified: '2026-04-19'
 specificationVersion: '0.23'
